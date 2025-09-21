@@ -375,8 +375,8 @@ mixin valueDisplay(val, options={})
 
 
 mixin _valueDisplayBtc(val, options={})
-	- var parts = utils.formatCurrencyAmount(val, 'bec');
-	- if (!parts || !parts.val) { parts = utils.formatCurrencyAmount(val, 'bec'); }
+	- var parts = utils.formatCurrencyAmount(val, 'btc');
+	- if (!parts || !parts.val) { parts = utils.formatCurrencyAmount(val, 'btc'); }
 
 
 	//span.d-inline.d-sm-none.fw-light.me-tiny ₿
